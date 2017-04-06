@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_study"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Study" />
+        <item
+            android:id="@+id/nav_quiz"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Quiz" />
+        <item
+            android:id="@+id/nav_game"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Game" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_menu_share"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Privacy Policy" />
+        </menu>
+    </item>
+
+</menu>

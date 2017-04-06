@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IGNOU</string>
+    <string name="inou_label_1">Indira Gandhi National</string>
+    <string name="ignou_label_2">Open University</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="ignou_label">IGNOU</string>
+    <string name="ignou_mail_label">internationaldivision@ignou.ac.in</string>
+</resources>
