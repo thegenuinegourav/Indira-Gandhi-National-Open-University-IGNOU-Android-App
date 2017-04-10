@@ -21,7 +21,8 @@
             android:name=".activity.HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme" />
-        <activity android:name=".activity.Module1Activity"></activity>
+        <activity android:name=".activity.Module1Activity" />
+        <activity android:name=".activity.ContentActivity"></activity>
     </application>
 
 </manifest>

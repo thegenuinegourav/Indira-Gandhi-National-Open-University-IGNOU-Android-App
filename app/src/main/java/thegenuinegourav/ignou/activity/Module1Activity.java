@@ -34,4 +34,34 @@ public class Module1Activity extends AppCompatActivity {
             }
         });
     }
+
+    public void switchToContent(String heading) {
+        Intent i =new Intent(Module1Activity.this,ContentActivity.class);
+        i.putExtra("Module",heading);
+        startActivity(i);
+    }
+
+    public void module1a(View view) {
+        switchToContent(((TextView) findViewById(R.id.module1_heading)).getText().toString());
+    }
+
+    public void module1b(View view) {
+        switchToContent(((TextView) findViewById(R.id.module2_heading)).getText().toString());
+    }
+
+    public void module1c(View view) {
+        switchToContent(((TextView) findViewById(R.id.module3_heading)).getText().toString());
+    }
+
+    public void module1d(View view) {
+        switchToContent(((TextView) findViewById(R.id.module4_heading)).getText().toString());
+    }
+
+    public void module1e(View view) {
+        switchToContent(((TextView) findViewById(R.id.module5_heading)).getText().toString());
+    }
+
+    public void module1f(View view) {
+        switchToContent(((TextView) findViewById(R.id.module6_heading)).getText().toString());
+    }
 }

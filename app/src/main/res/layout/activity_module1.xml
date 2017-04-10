@@ -28,13 +28,15 @@
 
                 <RelativeLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="175dp">
+                    android:layout_height="175dp"
+                    android:onClick="module1a">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="15dp"
                         android:text="Title"
+                        android:id="@+id/module1_heading"
                         android:textSize="25sp" />
 
                     <Button
@@ -55,12 +57,14 @@
 
                 <RelativeLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="175dp">
+                    android:layout_height="175dp"
+                    android:onClick="module1b">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="15dp"
+                        android:id="@+id/module2_heading"
                         android:text="Title"
                         android:textSize="25sp" />
 
@@ -87,12 +91,14 @@
 
                 <RelativeLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="175dp">
+                    android:layout_height="175dp"
+                    android:onClick="module1c">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="15dp"
+                        android:id="@+id/module3_heading"
                         android:text="Title"
                         android:textSize="25sp" />
 
@@ -114,13 +120,15 @@
 
                 <RelativeLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="175dp">
+                    android:layout_height="175dp"
+                    android:onClick="module1d">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="15dp"
                         android:text="Title"
+                        android:id="@+id/module4_heading"
                         android:textSize="25sp" />
 
                     <Button
@@ -146,13 +154,15 @@
 
                 <RelativeLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="175dp">
+                    android:layout_height="175dp"
+                    android:onClick="module1e">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="15dp"
                         android:text="Title"
+                        android:id="@+id/module5_heading"
                         android:textSize="25sp" />
 
                     <Button
@@ -173,12 +183,14 @@
 
                 <RelativeLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="175dp">
+                    android:layout_height="175dp"
+                    android:onClick="module1f">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="15dp"
+                        android:id="@+id/module6_heading"
                         android:text="Title"
                         android:textSize="25sp" />
 
